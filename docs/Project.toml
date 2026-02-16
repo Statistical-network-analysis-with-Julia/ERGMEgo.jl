@@ -1,0 +1,9 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+ERGMEgo = "c9d0e1f2-3456-7890-abcd-ef1234567890"
+
+[sources]
+ERGMEgo = {path = ".."}
+
+[compat]
+Documenter = "1"
