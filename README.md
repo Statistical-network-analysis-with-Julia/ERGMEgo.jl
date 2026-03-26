@@ -1,5 +1,17 @@
 # ERGMEgo.jl
 
+
+[![Network Analysis](https://img.shields.io/badge/Network-Analysis-orange.svg)](https://github.com/statistical-network-analysis-with-Julia/ERGMEgo.jl)
+[![Build Status](https://github.com/statistical-network-analysis-with-Julia/ERGMEgo.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/statistical-network-analysis-with-Julia/ERGMEgo.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Documentation](https://img.shields.io/badge/docs-stable-blue.svg)](https://statistical-network-analysis-with-Julia.github.io/ERGMEgo.jl/stable/)
+[![Documentation](https://img.shields.io/badge/docs-dev-blue.svg)](https://statistical-network-analysis-with-Julia.github.io/ERGMEgo.jl/dev/)
+[![Julia](https://img.shields.io/badge/Julia-1.9+-purple.svg)](https://julialang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<p align="center">
+  <img src="docs/src/assets/logo.svg" alt="ERGMEgo.jl icon" width="160">
+</p>
+
 ERGMs for Ego-Centric Network Data in Julia.
 
 ## Overview
@@ -12,7 +24,7 @@ This package is a Julia port of the R `ergm.ego` package from the StatNet collec
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/Statistical-network-analysis-with-Julia/ERGMEgo.jl")
+Pkg.add(url="https://github.com/statistical-network-analysis-with-Julia/ERGMEgo.jl")
 ```
 
 ## Features
@@ -193,6 +205,21 @@ Ego ERGMs use pseudo-likelihood methods to estimate ERGM parameters from ego sam
 - Triangles ≈ scaled alter-alter tie count
 - Homophily ≈ ego-alter attribute matching rate
 
+## Documentation
+
+For more detailed documentation, see:
+
+- [Stable Documentation](https://statistical-network-analysis-with-Julia.github.io/ERGMEgo.jl/stable/)
+- [Development Documentation](https://statistical-network-analysis-with-Julia.github.io/ERGMEgo.jl/dev/)
+
+## References
+
+1. Krivitsky, P.N., Morris, M. (2017). Inference for social network models from egocentrically sampled data, with application to understanding persistent racial disparities in HIV prevalence in the US. *Annals of Applied Statistics*, 11(1), 427-455.
+
+2. Krivitsky, P.N., Kolaczyk, E.D. (2015). On the question of effective sample size in network modeling: An asymptotic inquiry. *Statistical Science*, 30(2), 184-198.
+
+3. Hunter, D.R., Handcock, M.S., Butts, C.T., Goodreau, S.M., Morris, M. (2008). ergm: A package to fit, simulate and diagnose exponential-family models for networks. *Journal of Statistical Software*, 24(3), 1-29.
+
 ## License
 
-MIT License
+MIT License - see [LICENSE](LICENSE) for details.
